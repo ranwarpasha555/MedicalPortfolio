@@ -1,0 +1,73 @@
+body {
+
+  background-image: url('/images/coverimage.jpg');
+  /* Replace 'your_image.jpg' with your image path */
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  /* Optional: Make image cover the entire page */
+
+}
+
+.navbar {
+  height: 80px;
+}
+
+.navbar-brand,
+.nav-link {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.heading {
+  font-weight: bold;
+  font-family: Times New Roman, Times, serif;
+
+
+}
+
+
+.head-container {
+  background-color: #a6f2f3;
+}
+
+.text-center {
+
+  font-weight: bold;
+  font-family: Times New Roman, Times, serif;
+
+}
+
+.text-break {
+  font-size: 32px;
+  font-family: Times New Roman, Times, serif;
+  margin-top: 25px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-left: 0;
+  margin-right: 0;
+
+}
+
+.star {
+  font-size: 190%;
+  color: yellow;
+
+}
+
+.heading {
+  color: "red";
+  font-weight: bold;
+  font-family: Times New Roman, Times, serif;
+}
+
+label {
+  color: #fbfbfb;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.ft {
+  color: #fbfbfb;
+}

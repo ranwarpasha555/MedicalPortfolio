@@ -1,0 +1,110 @@
+body {
+
+  background-image: url('/images/coverimage.jpg');
+  /* Replace 'your_image.jpg' with your image path */
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  /* Optional: Make image cover the entire page */
+
+}
+
+
+.ft {
+  color: #fbfbfb;
+}
+
+.text-center {
+
+  font-weight: bold;
+  font-family: Times New Roman, Times, serif;
+
+}
+
+.navbar {
+  height: 80px;
+}
+
+.navbar-brand,
+.nav-link {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.heading {
+  color: "red";
+  font-weight: bold;
+  font-family: Times New Roman, Times, serif;
+
+
+}
+
+.head-container {
+  background-color: #a6f2f3;
+}
+
+.star {
+  font-size: 190%;
+  color: yellow;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+
+}
+
+.flex-container div {
+
+  margin: 5px;
+  padding: 0px;
+  flex: 1 1 300px;
+  height: 300px;
+}
+
+@media (max-width: 789px) {
+  .flex-container {
+      flex-direction: column;
+  }
+}
+
+.image-div>img {
+  width: 100%;
+  border-radius: 5px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+div.scroll-container {
+
+  overflow: auto;
+  width: 100%;
+  white-space: nowrap;
+  padding: 0px;
+
+
+}
+
+div.scroll-container img {
+  padding: 0px;
+  border-radius: 25px;
+}
+
+.main-scroll {
+
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  border: 2px solid #ebe7e7;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+@media (max-width: 789px) {
+  div.scroll-container img {
+      height: 300px;
+      width: 335px;
+  }

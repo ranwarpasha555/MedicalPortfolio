@@ -1,0 +1,215 @@
+body {
+  background-image: url('/images/coverimage.jpg');
+  /* Replace 'your_image.jpg' with your image path */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Optional: Make image cover the entire page */
+
+}
+
+
+.container {
+  margin-top: 160px;
+
+}
+
+
+
+
+.text-center {
+  font-weight: bold;
+  font-family: Times New Roman, Times, serif;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+}
+
+@media (max-width: 800px) {
+  img {
+      height: 200px;
+      width: 200px;
+
+  }
+}
+
+.navbar {
+  height: 80px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.heading {
+  color: "red";
+  font-weight: bold;
+  font-family: Times New Roman, Times, serif;
+
+}
+
+.star {
+  font-size: 190%;
+  color: yellow;
+}
+
+.head-container {
+  background-color: #a6f2f3;
+}
+
+.text-break {
+  font-size: 32px;
+  font-family: Times New Roman, Times, serif;
+  margin-top: 25px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-left: 0;
+  margin-right: 0;
+  color: #fbfbfb;
+
+}
+
+.ft {
+  color: #fbfbfb;
+}
+
+@media (max-width: 800px) {
+  .text-break {
+      font-size: 20px;
+      text-align: justify;
+  }
+}
+
+.container-fluid {
+  margin-top: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 2px solid #ede1e1;
+  border-radius: 8px;
+
+}
+
+.info {
+  height: 45px;
+  width: 300px;
+  margin-top: 33px;
+  color: white;
+  background-color: #65ce65;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: 152px;
+}
+
+
+
+.skills-container {
+  padding-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.skills {
+
+  margin: 0px;
+  padding: 0px;
+  flex: 1 1 auto;
+
+}
+
+@media only screen and (min-width: 1706px) {
+  .skills-container {
+      flex-direction: column;
+      padding : 60;
+
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .skills {
+
+      margin-top: 10px;
+      width: 400px;
+  }
+}
+
+@media only screen and (min-width: 860px) {
+  .skills>img {
+      flex: 100% ;
+      margin-top:10px;
+      width: 400px;
+  }
+}
+
+
+
+
+
+
+.skills>img {
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+
+
+.flex-container {
+  display: flex;
+  flex-warp: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.image-div {
+  margin: 5px;
+  padding: 0px;
+  flex: 1 1 300px;
+  height: 300px;
+  margin-top: 90px;
+
+}
+
+.image-div>img {
+  width: 100%;
+  border-radius: 5px;
+  height: 300px;
+
+}
+
+@media (max-width: 789px) {
+  .flex-container {
+      flex-direction: column;
+
+
+  }
+}
+
+.image-desc {
+  margin-top: 5px;
+  height: 60px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #129312;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 33px;
+  font-weight: bold;
+  font-family: Times New Romen;
+
+
+}
+
+#signature{
+
+  height: 85px;
+  width: 265px;
+  border: 1px solid #7f7979;
+  border-radius: 12px;
+  margin-bottom: 4px;
+}

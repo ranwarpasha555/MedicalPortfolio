@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-DemoApplication<demoForm>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.formApplication.demoForm.DemoApplication",
+      "projectName": "demoForm",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
